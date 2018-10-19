@@ -1,5 +1,116 @@
-form {
-    position: relative;
+body, html {
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#LinkArea {
+    height: 70%;
     text-align: center;
-    top: 45%;
+    height: inherit;
+
+    display: flex;
+    flex-flow: column;
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 60%;
+    top: 50%;
+}
+
+input[type="text"] {
+    background-color: #16161d;
+    border-style: solid;
+    height: 30px;
+    font-size: 20px;
+    border-color: #000000;
+    color: #909090;
+}
+
+div.scrollMenu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #16161d;
+    overflow: auto;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+div.scrollMenu  a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 5% 5%;
+    text-decoration: none;
+}
+
+div.scrollMenu  a:hover {
+    color: #15d4ee;
+    background-color: #000000;
+}
+
+div#getImage {
+    color: #008CBA;
+    background-color: #16161d;
+    border: none;
+    padding: 15px 32px;
+}
+
+div#getImage:hover {
+    background-color: #0b0b0e;
+    color: #41add0;
+}
+
+section {
+    background-color: #ffffff;
+    font-size: 20px;
+    padding: 10% 10% 10% 10%;
+    position: relative;
+    line-height: 30px;
+    -moz-user-select: text;
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+.icone, i {
+    font-size: 15vw;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    text-indent: 1cm;
+}
+
+#footer {
+    color: white;
+    text-align: center;
+    background-color: #16161d;
+    padding: 15px 32px;
+    margin: 0px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media only screen and ( min-width: 768px) {
+    section {
+        padding: 10% 15% 10% 15%;
+    }
 }
