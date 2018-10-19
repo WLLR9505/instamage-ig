@@ -1,9 +1,10 @@
 body, html {
     height: 100%;
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
+    font-size: 12px;
 }
 
 #LinkArea {
@@ -26,14 +27,13 @@ form {
     padding-left: 20%;
     padding-right: 20%;
     width: 60%;
-    top: 50%;
+    top: 30%;
 }
 
 input[type="text"] {
     background-color: #16161d;
     border-style: solid;
     height: 30px;
-    font-size: 20px;
     border-color: #000000;
     color: #909090;
 }
@@ -75,7 +75,6 @@ div#getImage:hover {
 
 section {
     background-color: #ffffff;
-    font-size: 20px;
     padding: 10% 10% 10% 10%;
     position: relative;
     line-height: 30px;
@@ -109,8 +108,14 @@ a {
     text-decoration: none;
 }
 
-@media only screen and ( min-width: 768px) {
+@media only screen and ( min-width: 900px) {    /*desktop*/
     section {
         padding: 10% 15% 10% 15%;
+    }
+    body {
+        font-size: 20px;
+    }
+    form {
+        top: 50%;
     }
 }
