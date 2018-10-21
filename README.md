@@ -1,4 +1,5 @@
 # instamage-ig
+[![Maintainability](https://api.codeclimate.com/v1/badges/46066b9e3718386bce44/maintainability)](https://codeclimate.com/github/WLLR9505/instamage-ig/maintainability)
 
 ## Uso:
 1 - Copie a URL de uma imagem do Instagram;  
