@@ -1,6 +1,6 @@
 body, html {
     height: 100%;
-    margin: 0px;
+    margin: 0;
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
@@ -10,7 +10,6 @@ body, html {
 #LinkArea {
     height: 70%;
     text-align: center;
-    height: inherit;
 
     display: flex;
     flex-flow: column;
@@ -63,14 +62,14 @@ div.scrollMenu  a:hover {
     background-color: #000000;
 }
 
-div#getImage {
+#getImage {
     color: #008CBA;
     background-color: #16161d;
     border: none;
     padding: 15px 32px;
 }
 
-div#getImage:hover {
+#getImage:hover {
     background-color: #0b0b0e;
     color: #41add0;
 }
@@ -102,7 +101,7 @@ p {
     text-align: center;
     background-color: #16161d;
     padding: 15px 32px;
-    margin: 0px;
+    margin: 0;
 }
 
 a {
